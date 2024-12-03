@@ -1,0 +1,14 @@
+.nav-link {
+  --bs-nav-link-color: #9c9c9c !important;
+  --bs-navbar-active-color: white;
+  --bs-link-hover-color-rgb: white !important;
+}
+
+.page-main {
+  background-color: #000 !important;
+  min-height: 100vh;
+}
+
+.bg-dark-gray {
+  background-color: #1b1b1b !important;
+}/*# sourceMappingURL=custom.css.map */
