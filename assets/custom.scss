@@ -1,3 +1,9 @@
+:root, [data-bs-theme=light] {
+--bs-light-border-subtle: #1b1b1b;
+}
+.navbar {
+    --bs-navbar-toggler-icon-bg:url('./images/icons/hamburger.svg');
+}
 .nav-link{
     --bs-nav-link-color: #9c9c9c !important;
     --bs-navbar-active-color: white;
@@ -35,8 +41,10 @@
 }
 
 .home-banner{
-    padding-top: 9rem !important;
-    padding-bottom: 9rem !important;
+    @media(min-width:992px){
+        padding-top: 9rem !important;
+        padding-bottom: 9rem !important;
+    }
 }
 
 @font-face {
