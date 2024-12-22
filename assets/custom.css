@@ -45,6 +45,18 @@
   font-family: ibm-plex-mono-regular;
   src: url("./fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
 }
+@font-face {
+  font-family: raleway-extra-bold;
+  src: url("./fonts/IBM_Plex_Mono/Raleway/static/Raleway-ExtraBold.ttf");
+}
 body {
   font-family: ibm-plex-mono-regular, sans-serif;
+}
+
+.raleway-extra-bold {
+  font-family: raleway-extra-bold, sans-serif;
+}
+
+.text-light {
+  color: #9C9C9C !important;
 }/*# sourceMappingURL=custom.css.map */
